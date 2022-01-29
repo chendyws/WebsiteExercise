@@ -74,4 +74,68 @@
 }
 
 
+.text-seo {
+	padding: 15px 15px;
+	text-align: center;
+}
 
+.title-item {
+	border-bottom: solid 1px #979797;
+	padding-bottom: 15px;
+	margin-bottom: 15px;
+}
+
+.title-item span
+{
+	border-bottom: solid 2px #1FBFFF;
+	padding-bottom: 14px;
+}
+
+
+.frameImg{
+	position: relative;
+}
+
+.frameImg h3{
+	position: absolute;
+	bottom: 0px;
+	color: #d1d1d1;
+	font-size: 24px;
+	background-color: rgba(0,0,0,0.5);
+	width: 100%;
+	padding: 10px;
+}
+
+.frameDesc{
+	padding: 10px;
+}
+
+.footermenu{
+	margin: 0px;
+	padding: 10px 0px;
+	list-style-type: none;
+}
+
+.footermenu li{
+	margin-left:2px;
+}
+
+.footermenu li a{
+	color:#E1E1E1;
+	text-decoration: none;
+	padding: 10px 20px;
+	display: inline-block;
+}
+
+/* Perintah yang dijalankan saat mouse ada di atas link/a */
+.footermenu li a:hover{
+	color:#212121;
+	background-color: #CDCDCD;
+}
+
+@media(min-width:992px)
+{
+	.text-seo{
+		padding: 30px 200px;
+	}
+}
